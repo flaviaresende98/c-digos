@@ -4,7 +4,7 @@ const classA = [// array de class A
         grade: 7.5
     },
     {
-        name: "Daniel",
+        name: "Ricardo",
         grade: 3.2
     },
     {
@@ -81,5 +81,5 @@ const avarage2 = calculateAvarage(classB)
 sendMessage(avarage1, `class A`)
 sendMessage(avarage2, `class B`)
 
-sendMessageflunked(classA)
-sendMessageflunked(classB)
+studentsflunkeds(classA)
+studentsflunkeds(classB)
