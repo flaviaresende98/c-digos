@@ -70,7 +70,7 @@ function sendMessageflunked(student) {
 function studentsflunkeds(students) {
     for (let student of students) {
         markAsFlunked(student)
-        sendMessageflunkeds(student)
+        sendMessageflunked(student)
     }
 }
 
@@ -79,7 +79,7 @@ const avarage2 = calculateAvarage(classB)
 
 
 sendMessage(avarage1, `class A`)
-sendMessage(avarage2,`class B`)
+sendMessage(avarage2, `class B`)
 
 sendMessageflunked(classA)
 sendMessageflunked(classB)
